@@ -1,0 +1,25 @@
+[17-Apr-2015 13:11:09 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/templates/page.tpl.php on line 112
+[17-Apr-2015 13:11:15 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/templates/page.tpl.php on line 112
+[17-Apr-2015 19:47:50 America/New_York] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL) in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/templates/page.tpl.php on line 115
+[25-Apr-2015 10:08:18 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home1/tiantaiy/public_html/ckerc/includes/database/database.inc:2171
+Stack trace:
+#0 /home1/tiantaiy/public_html/ckerc/includes/database/database.inc(2171): PDOStatement->execute(Array)
+#1 /home1/tiantaiy/public_html/ckerc/includes/database/database.inc(683): DatabaseStatementBase->execute(Array, Array)
+#2 /home1/tiantaiy/public_html/ckerc/includes/database/database.inc(2350): DatabaseConnection->query('SELECT expire, ...', Array, Array)
+#3 /home1/tiantaiy/public_html/ckerc/includes/lock.inc(167): db_query('SELECT expire, ...', Array)
+#4 /home1/tiantaiy/public_html/ckerc/includes/lock.inc(146): lock_may_be_available('theme_registry:...')
+#5 /home1/tiantaiy/public_html/ckerc/includes/theme.inc(449): lock_acquire('theme_registry:...')
+#6 /home1/tiantaiy/public_html/ckerc/includes/bootstrap.inc(455): ThemeRegistry->set(Array)
+#7 [internal function]: DrupalCacheArray->__destruct()
+#8 {main}
+  throw in /home1/tiantaiy/public_html/ckerc/includes/database/database.inc on line 2171
+[10-Jun-2015 00:52:29] PHP Warning:  require_once(__DIR__/composer/autoload_real.php): failed to open stream: No such file or directory in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:52:29] PHP Fatal error:  require_once(): Failed opening required '__DIR__/composer/autoload_real.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:54:40] PHP Warning:  require_once(__DIR__/composer/autoload_real.php): failed to open stream: No such file or directory in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:54:40] PHP Fatal error:  require_once(): Failed opening required '__DIR__/composer/autoload_real.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:55:56] PHP Warning:  require_once(__DIR__/composer/autoload_real.php): failed to open stream: No such file or directory in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:55:56] PHP Fatal error:  require_once(): Failed opening required '__DIR__/composer/autoload_real.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:56:00] PHP Warning:  require_once(__DIR__/composer/autoload_real.php): failed to open stream: No such file or directory in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 00:56:00] PHP Fatal error:  require_once(): Failed opening required '__DIR__/composer/autoload_real.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/tiantaiy/.composer/vendor/autoload.php on line 5
+[10-Jun-2015 03:36:09] PHP Fatal error:  Cannot redeclare honghong_preprocess_html() (previously declared in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/template.php:9) in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/template.php on line 31
+[10-Jun-2015 03:36:12] PHP Fatal error:  Cannot redeclare honghong_preprocess_html() (previously declared in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/template.php:9) in /home1/tiantaiy/public_html/ckerc/sites/all/themes/honghong/template.php on line 31

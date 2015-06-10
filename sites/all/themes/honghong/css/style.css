@@ -1,0 +1,78 @@
+.field-name-body{
+	padding-top: 20px;
+}
+/*field-name-body 是文章页面里, 正文与 发布者之间的距离*/
+
+#edit-pass, #edit-name{
+	display: block;
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+
+#footer{
+	background-image: url(../images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 140px;
+}
+
+#footer01020304{
+	padding-top: 50px;
+}
+
+#footer01020304 h2{
+	color: #fefefe;
+}
+
+#block-user-login input {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+blockquote{
+	background: none repeat scroll 0 0 #f5f2f0;
+	border: 2px solid #e0dfcc;
+	border-radius: 10px;
+	color: #A52A2A;
+	font-size: 13px;
+	margin: 20px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.views-row-odd, .views-row-even {
+
+}
+
+/*首页文章标题标签日期等等*/
+.page-header:hover{
+  color: rgb(0, 178, 255);
+}
+.article-tags a{
+	font-size: 12px;
+	color: #999;
+	background: none repeat scroll 0 0 #f3f1f1;
+    border-radius: 8px;
+    color: #666;
+    padding: 4px 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.article-timectg{
+	font-size: 13px;
+	color: #888;
+	padding-top: 15px;
+}
+.article-timectg i{
+	padding-right: 8px;
+}
+.bodyinfo{
+	padding-bottom: 10px;
+}
+.article-title{
+	line-height: 40px;
+}
+/*结束上面*/

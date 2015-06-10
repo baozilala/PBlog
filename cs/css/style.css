@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+body{
+	background: url(../images/background.png);
+}
+
+#container{
+	width:650px;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin:100px auto 0 auto;
+}
+
+#logo{
+	height: 90px;
+	background: url(../images/logo.png)no-repeat center;
+}
+#slogon{
+	width: 550px;
+	text-align: right;
+	font-size: 15px;
+	margin: 0 0 15px;
+}
+#sidebars{
+	width: 650px;
+	height: 50px;
+}
+
+#lsidebar{
+	float: left;
+}
+
+#rsidebar{
+	width: 210px;
+	border: 1px solid #d9d9d9;
+	padding: 10px;
+	float: right;
+	background: url(../images/beta.png) no-repeat;
+	background-size: 65px;
+	background-position: top right;
+	background-color: white;
+}
+
+#price{
+	clear: both;
+	font-size: 12px;
+	padding-top: 10px;
+	border-collapse:collapse;
+}
+
+#price p{
+	width: 600px;
+	font-size: 5px;
+}
+
+#footer{
+	text-align: center;
+	margin-top: 15px;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ table{
+ 	width: 650px;
+ 	text-align: center;
+
+ }
+
+ td{
+ 	 	border: 1px solid gray;
+ }

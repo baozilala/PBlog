@@ -1,0 +1,62 @@
+name		= 马轰轰
+description = 马轰轰的第一个模板!
+scrrenshot	= screenshot.png
+core 		= 7.x
+
+# Add javascript files
+#Jquery要比bootstrap先加载.
+;scripts[] = js/bootstrap.min.js
+
+scripts[] = js/lib/jquery-1.11.2.min.js
+scripts[] = js/lib/bootstrap.min.js
+scripts[] = js/lib/respond.js
+scripts[] = js/lib/html5shiv.js
+
+
+
+# Add stylesheets
+;stylesheets[all][] = css/style.css
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-theme.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/font-awesome.min.css
+
+
+
+;Define regions, otherwise the default regions will be used.
+;regions[header] = Header
+;regions[highlighted] = Highlighted
+;regions[help] = Help
+;regions[content] = Content
+;regions[sidebar_first] = Left Sidebar
+;regions[sidebar_second] = Right Sidebar
+;regions[bottom] = Bottom
+;regions[footer] = Footer
+
+regions[navigation] = 导航栏
+regions[slideshow] = 幻灯展示
+regions[sidebar_first] = 左侧栏
+regions[content] = 主内容
+regions[footer01] = 脚部01
+regions[footer02] = 脚部02
+regions[footer03] = 脚部03
+regions[footer04] = 脚部04
+regions[footer] = 脚部
+
+
+
+
+
+# Define which features are available. If none are specified, all the default 
+# features will be available.
+;features[] = logo
+;features[] = name
+;features[] = favicon
+;features[] = slogan
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = comment_user_verification
+;features[] = favicon
+;features[] = main_menu
+;features[] = secondary_menu
